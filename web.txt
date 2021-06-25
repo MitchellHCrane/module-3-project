@@ -1,0 +1,19 @@
+<h3>How does the internet work?</h3>
+
+<p>The internet is stuctured on a network or a frame work composing 
+of computers/devices, routers, servers, network service providers. The 
+network is how computers communicate with each other and is also how 
+the Web works. The web is a service built on top of the internet network 
+structure</p>
+
+
+<h3>What happens when you click a link</h3>
+
+<p>When a link is clicked the https protocal runs. This then goes through 
+your local Domain Name Service cache to find the IP address. If the IP is 
+not found it goes to your router to find the IP address. If not found it 
+goes through your Internet Service Provider(ISP). If not found it communicates
+with other ISP on the web. If not found there it goes to the Root DNS server
+for .com .net .biz etc. to pull the IP address. Once found the IP address is 
+returned to your computer, which then sends a request to the specified IP address
+to access the server to display the page requested. </p>
