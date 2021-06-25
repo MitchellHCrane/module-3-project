@@ -10,7 +10,7 @@
         <li class="crumb"><a href="./home.html">Home</a></li>
         <li class="crumb"><a href="./profile.html">Profile</a></li>
         <li class="crumb"><a href="./about.html">About</a></li>
-		<li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+        <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
       </ol>
     </nav>
 
@@ -38,15 +38,19 @@
         Message:
         <input type="textarea" /><br />
         How did you hear about us?<br /><br />
-        <label for="google"> Google</label>
-        <input type="checkbox" id="google" name="google" />
-
-        <label for="aFriend"> A Friend</label>
-        <input type="checkbox" id="aFriend" name="aFriend" />
-
-        <label for="other"> Other</label>
-        <input type="checkbox" id="other" name="other" />
-
+        <div class="check-box">
+          <input type="checkbox" id="google" name="google" />
+          <label for="google"> Google</label>
+        </div>
+        <div class="check-box">
+          <input type="checkbox" id="aFriend" name="aFriend" />
+          <label for="aFriend"> A Friend</label>
+        </div>
+        <div class="check-box">
+          <input type="checkbox" id="other" name="other" />
+          <label for="other"> Other</label>
+        </div>
+        <br />
         <input type="submit" />
       </form>
     </content>

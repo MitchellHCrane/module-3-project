@@ -37,8 +37,14 @@ img {
 }
 
 .buttonClass {
+  display: inline;
+  margin: 20px;
   background-color: rgb(241, 225, 0);
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100px;
   height: 60px;
+}
+
+.check-box {
+  display: flex;
 }
